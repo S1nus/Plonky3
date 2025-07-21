@@ -1,4 +1,6 @@
-const WORD_SIZE: usize = 4;
+pub const NUM_SHA256_COLS: usize = 100;
+
+pub const WORD_SIZE: usize = 4;
 
 #[derive(Default, Debug, Clone, Copy)]
 #[repr(C)]
